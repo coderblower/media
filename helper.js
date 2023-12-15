@@ -23,6 +23,7 @@ const nightmare = new Nightmare(  {
   });
 
 function callScrapFn({Media}){
+    console.log('fired')
 	
 	let This = this;
 	nightmare.goto('https://allonlinebanglanewspapers.com/details.php?id=65')
